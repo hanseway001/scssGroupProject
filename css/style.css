@@ -135,9 +135,51 @@ body {
   border-radius: 0 50px 50px 0;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.search {
+  display: flex;
+  border-bottom: 1px solid;
+  align-items: center;
+  width: 50%;
+}
+.search img {
+  width: 20px;
+}
+.search input {
+  border: none;
+  background-color: #FCF4F0;
+}
+
 .orangeBox {
   color: #fff;
-  background-color: rgb(230, 68, 28);
-  padding: 15px 20px;
-  border-radius: 5px;
+  background-color: #DB3528;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.titleArea {
+  display: flex;
+  align-items: center;
+}
+
+.titles {
+  justify-content: space-between;
+}
+
+.numbers {
+  display: flex;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
 }/*# sourceMappingURL=style.css.map */
