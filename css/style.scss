@@ -50,7 +50,7 @@ body {
 }
 
 .grayText {
-    color: #988e8b;
+    color: $greyText;
 }
 .orangeLogo {
     margin-right: 10px;
@@ -89,9 +89,9 @@ body {
 
 .search {
     display: flex;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid $greyText;
     align-items: center;
-    width: 50%;
+    width: 30%;
 
     img {
         width: 20px;
@@ -100,8 +100,14 @@ body {
     input {
         border: none;
         background-color: $content-color;
+        width: 100%;
     }
 }
+
+.tuner {
+    width: 2em;
+}
+
 .orangeBox {
         color: #fff;
         background-color: $button-color;

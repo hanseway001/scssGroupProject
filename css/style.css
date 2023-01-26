@@ -94,9 +94,9 @@ body {
 
 .search {
   display: flex;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #988e8b;
   align-items: center;
-  width: 50%;
+  width: 30%;
 }
 .search img {
   width: 20px;
@@ -104,6 +104,11 @@ body {
 .search input {
   border: none;
   background-color: #FCF4F0;
+  width: 100%;
+}
+
+.tuner {
+  width: 2em;
 }
 
 .orangeBox {
