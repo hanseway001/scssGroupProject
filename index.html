@@ -6,26 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>SCSS Group Project</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
         <div class="sidebar">
-            <div>
-                <h2>FooDoo</h2>
+
+            
+            <div class="sidebarSection">
+                <img id="FoodooIMG" src="images/logo.png" alt="logo">
+                <img id="KristinIMG" src="images/kristin.png" alt="kristin">
                 <h2>Kristin Watson</h2>
-                <p>Chef de Partie</p>
+                <p class="grayText">Chef de Partie</p>
             </div>
 
             <div>
-                <h2>Recipes</h2>
-                <h2>Favorites</h2>
-                <h2>Courses</h2>
-                <h2>Community</h2>
+                
+                <div class="logoLinks">
+                    <img class="orangeLogo" src="images/book.png" alt="recipe book">
+                    <h2>Recipes</h2>
+                </div>
+                <div class="logoLinks">
+                    <img class="orangeLogo" src="images/heart.png" alt="heart logo">
+                    <h2>Favorites</h2>
+                </div>
+                <div class="logoLinks">
+                    <img class="orangeLogo" src="images/bag.png" alt="heart logo">
+                    <h2>Courses</h2>
+                </div>
+                <div class="logoLinks">
+                    <img class="orangeLogo" src="images/globe.png" alt="heart logo">
+                    <h2>Community</h2>
+                </div>
             </div>
 
-            <div>
-                <img src="" alt="">
-                <p>Create a team and take part in TV show!</p>
+            <div class="sidebarSection">
+                <img id="profilePics" src="images/profilepics.png" alt="profile pics">
+                <p>Create a team and take part in <span style=" text-decoration: underline">TV show!</span> </p>
             </div>
         </div>
 

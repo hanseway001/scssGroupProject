@@ -1,7 +1,14 @@
 @use 'base' as *;
 @use 'variables' as *;
-
-
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+}
+p {
+    font-family: 'Rubik', sans-serif;
+}
 body {
     width: 100%;
     background-color: $main-color;
@@ -16,6 +23,10 @@ body {
     width: 90%;
     height: 800px;   
 }
+
+
+// sidebar section
+
 .sidebar {
     background-color: $sidebar-color;
     width: 15%;
@@ -23,9 +34,42 @@ body {
     border-radius: 50px 0 0 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     
+    .sidebarSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
 }
+.logoLinks {
+    margin: 30px 0;
+    display: flex;
+}
+
+.grayText {
+    color: #988e8b;
+}
+.orangeLogo {
+    margin-right: 10px;
+    width: 20px;
+}
+#FoodooIMG {
+    width: 120px;
+    margin: 40px 0;
+}
+#KristinIMG {
+    width: 100px;
+}
+#profilePics {
+    width: 100px;
+}
+
+
+//content section
+
 .content {
     background-color: $content-color;
     width: 100%;
