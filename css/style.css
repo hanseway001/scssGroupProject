@@ -171,6 +171,7 @@ body {
 .titleArea {
   display: flex;
   align-items: center;
+  padding: 1em 2em;
 }
 
 .titles {
