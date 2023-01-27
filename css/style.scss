@@ -2,9 +2,11 @@
 @use 'variables' as *;
 h1 {
     font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
 }
 h2 {
     font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
 }
 h3 {
     font-family: 'Rubik', sans-serif;
@@ -15,6 +17,7 @@ a {
 }
 p {
     font-family: 'Rubik', sans-serif;
+    color: $greyText;
 }
 body {
     width: 100%;
@@ -149,7 +152,9 @@ body {
         width: 100%;
     }
 }
-
+nav {
+    padding: 0;
+}
 .tuner {
     width: 2em;
 }
@@ -163,18 +168,29 @@ body {
 
 .titleArea {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 1em 2em;
 }
-.titles {
-    justify-content: space-between;
-}
-.numbers {
+
+.leftTitle {
     display: flex;
+    align-items: center;
+    .titles {
+        justify-content: space-between;
+        padding: 0 2em;
+    }
 }
-h1 {
-    font-size: 3em;
-}
-h2 {
-    font-size: 2em;
+
+.rightTitle {
+    display: flex;
+    div{
+        padding: 0 1em;
+    }
+    div:nth-child(1){
+        border-right: 1px solid $greyText;
+    }
+    h1 {
+        padding-bottom: 5px;
+    }
 }

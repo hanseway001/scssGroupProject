@@ -10,10 +10,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
 
 h1 {
   font-family: "Berkshire Swash", cursive;
+  font-size: 3em;
 }
 
 h2 {
   font-family: "Berkshire Swash", cursive;
+  font-size: 2em;
 }
 
 h3 {
@@ -26,6 +28,7 @@ a {
 
 p {
   font-family: "Rubik", sans-serif;
+  color: #988e8b;
 }
 
 body {
@@ -157,6 +160,10 @@ body {
   width: 100%;
 }
 
+nav {
+  padding: 0;
+}
+
 .tuner {
   width: 2em;
 }
@@ -170,22 +177,29 @@ body {
 
 .titleArea {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
 }
 
-.titles {
+.leftTitle {
+  display: flex;
+  align-items: center;
+}
+.leftTitle .titles {
   justify-content: space-between;
+  padding: 0 2em;
 }
 
-.numbers {
+.rightTitle {
   display: flex;
 }
-
-h1 {
-  font-size: 3em;
+.rightTitle div {
+  padding: 0 1em;
 }
-
-h2 {
-  font-size: 2em;
+.rightTitle div:nth-child(1) {
+  border-right: 1px solid #988e8b;
+}
+.rightTitle h1 {
+  padding-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */
