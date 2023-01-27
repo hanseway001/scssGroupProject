@@ -76,16 +76,29 @@ body {
     a {
         color: #988e8b;
     }
-    a:hover {
-        color: #000;
-      }
-    
 }
+
+// transparent logo hover elements
+.logoLinks:hover {
+    a {
+        color: #000;
+    }
+  }
+// switches gray images to orange when mouse hovers over it
+.logoLinks:hover img.orangeLogo{
+display:none;
+}
+.logoLinks img.orangeLogoHover{
+display:none;
+}
+.logoLinks:hover img.orangeLogoHover{
+display:block;
+ }
 
 .grayText {
     color: #988e8b;
 }
-.orangeLogo {
+.orangeLogo, .orangeLogoHover {
     margin-right: 10px;
     width: 20px;
 }

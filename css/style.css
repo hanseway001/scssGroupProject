@@ -87,15 +87,28 @@ body {
 .logoLinks a {
   color: #988e8b;
 }
-.logoLinks a:hover {
+
+.logoLinks:hover a {
   color: #000;
+}
+
+.logoLinks:hover img.orangeLogo {
+  display: none;
+}
+
+.logoLinks img.orangeLogoHover {
+  display: none;
+}
+
+.logoLinks:hover img.orangeLogoHover {
+  display: block;
 }
 
 .grayText {
   color: #988e8b;
 }
 
-.orangeLogo {
+.orangeLogo, .orangeLogoHover {
   margin-right: 10px;
   width: 20px;
 }
