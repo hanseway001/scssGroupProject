@@ -121,7 +121,7 @@ body {
 }
 
 .column {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -140,9 +140,10 @@ body {
   padding-top: 18px;
 }
 
-.fish {
-  max-width: 10px;
-  max-height: 10px;
+.steak {
+  max-width: 20px;
+  max-height: 18px;
+  padding-left: 2px;
 }
 
 #imagefix {
