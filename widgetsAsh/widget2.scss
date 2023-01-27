@@ -1,0 +1,113 @@
+body{
+    background-color: #c9c4a9;
+}
+.box {
+    border-radius: 25px;
+    width: 220px;
+    height: 250px;
+    border: #000000;
+    background-color: #ffffff;
+    margin: 2px;
+    transition: all 2s;
+    margin-top: 75px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box:hover{
+    transform: translate(0px, -20px);
+    h5 {
+        background-color: red;
+        color: #ffffff;
+    }
+}
+.box .bottom-text{
+    display: flex;
+    justify-content: center;
+}
+.brownbar{
+    background-color: #ffefd7;
+    border-radius: 10px;
+    padding: 5px;
+    color: #e08600;
+    font-size: 1em;
+    display: inline-flex;
+    margin-left: 28%;
+    margin-top: 3px;
+}
+.redbar{
+    background-color: #e99ca9;
+    border-radius: 10px;
+    padding: 5px;
+    color: #a70f28;
+    font-size: 1em;
+    display: inline-flex;
+    margin-left: 33%;
+    margin-top: 3px;
+}
+.greenbar{
+    background-color: #FEF2E1;
+    border-radius: 10px;
+    padding: 5px;
+    color: #87dd8b;
+    font-size: 1em;
+    display: inline-flex;
+    margin-left: 33%;
+    margin-bottom: 25px;
+    margin-top: 3px;
+}
+// .box h4 {
+//     display: flex;
+//     justify-content: center;
+// }
+// .box h2{
+//     display: flex;
+//     justify-content: center;
+// }
+
+.box h5{
+    transition: all 2s;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+// .box h5:hover{
+//     background-color: red;
+// }
+.centeredImage {
+    display: flex;
+    justify-self: center;
+    margin-top:-75px;
+    margin-left: 35px;
+}
+.recipeName {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 15px;
+}
+.column{
+    font-size: 20px;
+    font-weight: bold;
+}
+.columnRow{
+    font-size: 10px;
+    font-weight: lighter;
+}
+.leaf{
+    max-width: 20px;
+    max-height: 20px;
+}
