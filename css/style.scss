@@ -1,5 +1,6 @@
 @use 'base' as *;
 @use 'variables' as *;
+@use '../widgetsAsh/widget2' as *;
 h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 3em;

@@ -13,7 +13,8 @@ body{
 }
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 30px;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -57,7 +58,6 @@ body{
     font-size: 1em;
     display: inline-flex;
     margin-left: 33%;
-    margin-bottom: 25px;
     margin-top: 3px;
 }
 // .box h4 {
@@ -72,18 +72,21 @@ body{
 .box h5{
     transition: all 2s;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     border-radius: 25px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
-// .box h5:hover{
-//     background-color: red;
-// }
 .centeredImage {
     display: flex;
     justify-self: center;
     margin-top:-75px;
+    margin-left: 35px;
+}
+.centeredImagePasta {
+    display: flex;
+    justify-self: center;
+    margin-top:-88px;
     margin-left: 35px;
 }
 .recipeName {
