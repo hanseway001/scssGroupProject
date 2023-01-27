@@ -149,39 +149,39 @@ display:block;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 2em;
-
-    
+    padding: 2.2em 2em;
 }
 
 .search {
     display: flex;
     border-bottom: 1px solid $greyText;
     align-items: center;
-    width: 30%;
+    width: 33%;
+    padding: 15px;
 
     img {
         width: 20px;
+        margin-right: 10px;
     }
 
     input {
         border: none;
         background-color: $content-color;
         width: 100%;
+        // border-left: 20px;
     }
 }
-nav {
-    padding: 0;
-}
+
 .tuner {
-    width: 2em;
+    width: 1em;
 }
 
 .orangeBox {
         color: #fff;
         background-color: $button-color;
-        padding: 10px 10px;
+        padding: 20px 20px;
         border-radius: 10px;
+        margin: 0 20px 0 20px;
 }
 
 .titleArea {
@@ -194,21 +194,31 @@ nav {
 .leftTitle {
     display: flex;
     align-items: center;
+
+    img {
+        width: 8em;
+    }
+
     .titles {
         justify-content: space-between;
         padding: 0 2em;
+    }
+
+    h1 {
+        padding-bottom: 15px;
     }
 }
 
 .rightTitle {
     display: flex;
     div{
-        padding: 0 1em;
+        padding: 0 1em 0 2em;
     }
     div:nth-child(1){
         border-right: 1px solid $greyText;
+        padding-right: 2em;
     }
     h1 {
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 }
