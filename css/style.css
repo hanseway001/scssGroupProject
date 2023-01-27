@@ -10,6 +10,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
 
 body {
   background-color: #c9c4a9;
+  font-family: "Rubik", sans-serif;
 }
 
 .box {
@@ -101,9 +102,10 @@ body {
 }
 
 .recipeName {
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 
 .row {
@@ -115,7 +117,7 @@ body {
 }
 
 .column {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
