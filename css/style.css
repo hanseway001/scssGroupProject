@@ -129,6 +129,11 @@ body {
   max-height: 20px;
 }
 
+#imagefix {
+  display: flex;
+  align-items: center;
+}
+
 h1 {
   font-family: "Berkshire Swash", cursive;
   font-size: 3em;
