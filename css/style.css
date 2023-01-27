@@ -131,13 +131,18 @@ body {
 }
 
 .leaf {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 18px;
+  max-height: 15px;
 }
 
 .rating {
   padding-left: 58px;
   padding-top: 18px;
+}
+
+.fish {
+  max-width: 10px;
+  max-height: 10px;
 }
 
 #imagefix {
