@@ -1,6 +1,7 @@
 @use 'base' as *;
 @use 'variables' as *;
 @use '../widgetsAsh/widget2' as *;
+
 #imagefix {
     display: flex;
     align-items: center;
@@ -83,7 +84,7 @@ body {
     display: flex;
 
     a {
-        color: #988e8b;
+        color: $greyText;
     }
 }
 

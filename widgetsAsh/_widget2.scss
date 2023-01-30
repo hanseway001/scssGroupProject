@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 .brownbar{
-    background-color: #ffefd7;
+    background-color: #fff1ed;
     border-radius: 10px;
     padding: 5px;
     color: #e08600;
@@ -45,7 +45,7 @@ body{
     margin-top: 10px;
 }
 .redbar{
-    background-color: #f7c2cb;
+    background-color: #f6e9ee;
     border-radius: 10px;
     padding: 5px;
     color: #a70f28;
@@ -56,7 +56,7 @@ body{
     margin-top: 10px;
 }
 .greenbar{
-    background-color: #d5fdec;
+    background-color: #eff4ef;
     border-radius: 10px;
     padding: 5px;
     color: #87dd8b;
@@ -83,6 +83,7 @@ body{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     font-weight: bold;
+    // border-top: 1px solid;
 }
 .centeredImage {
     display: flex;
@@ -140,35 +141,39 @@ body{
     max-height: 16px;
 }
 
+
 // green box
 #lightGreenBox {
-    background-color: #7dbfa2;
+    background-color: $lightGreen;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     box-shadow: rgba(0, 255, 26, 0.1) 0px 20px 25px -5px, rgba(21, 101, 52, 0.04) 0px 10px 10px -5px;
 
-}
-#proBox {
-    margin: 20px 0 0 20px;
-    padding: 5px 10px ;
-    width: 25px;
-    border-radius: 5px;
-    font-size: .8em;
-    background-color: #000000;
-    color: rgb(231, 231, 231);
-    text-align: center;
-}
-#greenBoxContent {
-    padding: 20px;
-}
-#mentorTitle {
-    font-size: 1.5em;
-    color: #fff;
-    margin-bottom: 15px;
-}
-#mentorText {
-    font-size: .9em;
-    color: #fff;
-    width: 95%;
+    h3 {
+        margin: 20px 0 0 20px;
+        padding: 5px 10px ;
+        width: 25px;
+        border-radius: 5px;
+        font-size: .8em;
+        background-color: #000000;
+        color: rgb(231, 231, 231);
+        text-align: center;
+    }
+
+    div {
+        padding: 20px;
+
+        h2 {
+            font-size: 1.5em;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            font-size: .9em;
+            color: #fff;
+            width: 95%;
+        }
+    }
 }
