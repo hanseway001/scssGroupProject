@@ -79,15 +79,15 @@ body {
 .centeredImage {
   display: flex;
   justify-self: center;
-  margin-top: -75px;
-  margin-left: 35px;
+  margin-top:-40px;
+  margin-left: 70px;
 }
 
 .centeredImagePasta {
   display: flex;
   justify-self: center;
-  margin-top: -88px;
-  margin-left: 35px;
+  margin-top:-52px;
+  margin-left: 60px;
 }
 
 .recipeName {
